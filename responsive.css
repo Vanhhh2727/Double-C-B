@@ -1,0 +1,200 @@
+@media screen and (max-width: 744px) {
+  /* CSS nav */
+  .CB_container .CB_container-nav ul,
+  .CB_container .CB_container-nav button {
+    display: none;
+  }
+
+  .CB_container .CB_container-nav i {
+    display: flex;
+    align-items: center;
+  }
+
+  /* CSS header */
+  .CB_container .CB_container-header {
+    padding: 8px;
+    height: 830px;
+  }
+
+  .CB_container .CB_container-header .CB_container-header-text {
+    height: 300px;
+    margin: 13px 4px 20px 4px;
+  }
+
+  .CB_container .CB_container-header .CB_container-header-text h2 {
+    font-size: 73px;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-buttom
+    button {
+    border: none;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-text-child {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .CB_container .CB_container-header .CB_container-header-img .img1 {
+    display: none;
+  }
+
+  .CB_container .CB_container-header .CB_container-header-img .img2 {
+    display: block;
+  }
+
+  /* CSS feature */
+  .CB_container .CB_container-feature {
+    display: block;
+  }
+
+  /* CSS introduce */
+  .CB_container .CB_container-introduce {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    height: 827px;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program-content {
+    margin-left: 0;
+    width: 88vw;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program .CB_container-introduce-program-content h3 {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program .CB_container-introduce-program-content p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program .CB_container-introduce-program-reply {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    margin-top: 37px;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program .CB_container-introduce-program-reply ul {
+    margin: 0 18vw;
+  }
+
+  .CB_container .CB_container-introduce .CB_container-introduce-program .CB_container-introduce-program-reply ul li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  /* CSS comment */
+  .CB_container .CB_container-comment .CB_container-comment-child .CB_container-comment-child1 {
+    height: 348px;
+  }
+
+  .CB_container .CB_container-comment .CB_container-comment-child .CB_container-comment-child2 {
+    height: 348px;
+  }
+
+  .CB_container .CB_container-comment .CB_container-comment-child .CB_container-comment-child3 {
+    display: none;
+  }
+
+  /* CSS cta */
+  .CB_container .CB_container-cta .CB_container-cta-content h2 {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 391px) {
+  /* CSS header */
+  .CB_container .CB_container-header {
+    padding: 0;
+    height: 583px;
+  }
+
+  .CB_container .CB_container-header .CB_container-header-text h2 {
+    font-size: 39px;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-buttom {
+    gap: 0;
+    display: block;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-buttom
+    button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-text-child {
+    margin-bottom: 29px;
+  }
+
+  .CB_container
+    .CB_container-header
+    .CB_container-header-text
+    .CB_container-header-buttom
+    p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  /* CSS feature */
+  .CB_container .CB_container-feature {
+    display: block;
+    background-color: #F3F3F3;
+  }
+
+  /* CSS introduce */
+  .CB_container .CB_container-introduce {
+    height: 735px;
+  }
+
+  /* CSS comment */
+  .CB_container .CB_container-comment .CB_container-comment-child .CB_container-comment-child2 {
+    display: none;
+  }
+  .CB_container .CB_container-comment .CB_container-comment-child .CB_container-comment-child1 {
+    height: 348px;
+    width: 90%;
+  }
+
+  /* CSS cta */
+  .CB_container .CB_container-cta .CB_container-cta-content h2 {
+    font-size: 26px;
+  }
+}
